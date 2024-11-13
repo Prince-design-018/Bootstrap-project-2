@@ -1,0 +1,170 @@
+body{
+    margin:0;
+    padding:0;
+}
+.mainarea{
+    background-image: url('image\ 828.png');
+    height:800px;
+}
+.toparea{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+    width: 100%;
+    padding:2%;
+    margin-bottom:5%;
+}
+.innerarea{
+    text-align: left;
+    padding: 10px 0;
+    color: #fff;
+}
+.innerarea h6{
+    float: right;
+    margin-top:2%;  
+    margin-right:50%;
+    font-size: 16px;
+}
+.innerarea h2{
+    color:white;
+    font-size:60px;
+}
+.innerarea p{
+    text-align:left;
+    font-size: 16px;
+}
+.toparea ul li{
+    float:left;
+    list-style:none;
+    padding-left:4%;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#2d3d2b;
+    z-index:1000;
+    
+}
+.toparea ul{
+    margin-top:3%;
+}
+.toparea img{
+    margin-left:30%;
+}
+.plants{
+    height:600px;
+}
+.plants img{
+    float:left;
+}
+.plants p{
+    padding-top:50px;
+    padding-bottom:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #014B40;
+
+}
+.plants h4{
+    padding-top:50px;
+    padding-bottom:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #014B40;
+
+}
+.plants img{
+    border-radius:5%;
+}
+.textarea{
+    height:50px;
+    background-color: wheat;
+}
+.searcharea{
+    height:200px;
+    background-image: url('search.png');
+}
+.searcharea form{
+    width:100%;
+    margin-top:7%;
+}
+.newarea{
+    height:500px;
+}
+.newarea img{
+    border-radius:5%;
+}
+.newarea p{
+    padding-top:50px;
+    padding-bottom:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #014B40;
+
+}
+.newarea h4{
+    padding-top:50px;
+    padding-bottom:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #014B40;
+
+}
+.stand{
+    height:500px;
+}
+.stand img{
+    border-radius:5%;
+}
+.stand h4{
+    padding-top:50px;
+    padding-bottom:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #014B40;
+
+}
+.contact .container .row{
+    height:500px;
+    background-image: url('image 800.png');
+    background-size: 100% 100%;
+    padding: 60px 0;
+    margin: 100px 0;
+    color: white;
+    height: 400px;
+    text-align: center;
+    border-radius: 15px;
+}
+.contact h2{
+    font-size: 44px;
+}
+.footerarea{
+    background-color:#014B40;
+    height:550px;
+    padding-top:7%;
+}
+.footerarea p{
+    text-align: left;
+    color: white;
+}
+.footerarea img{
+    margin-bottom:5%;
+}
+.footerarea h3{
+    color:whitesmoke;
+}
+.footerarea form{
+    margin-bottom: 15%;
+}
+.footerarea h5{
+    color: white;
+}
+.footerarea h4{
+    color: white;
+}
+.footerarea h2{
+    color: white;
+}
+.lastarea{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 10px;
+}
+.lastarea span{
+    padding:5%;
+    color:black;
+}
+.lastarea a{
+    color:black;
+}
