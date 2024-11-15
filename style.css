@@ -7,10 +7,19 @@ body{
     height:800px;
 }
 .toparea{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter:blur(3px);
     width: 100%;
-    padding:2%;
-    margin-bottom:5%;
+    padding:20px;
+    margin-bottom:60px;
+}
+.toparea img{
+    margin-bottom:10px;
+}
+.toparea a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    margin-top:80px;
 }
 .innerarea{
     text-align: left;
@@ -19,8 +28,8 @@ body{
 }
 .innerarea h6{
     float: right;
-    margin-top:2%;  
-    margin-right:50%;
+    margin-top:20px;  
+    margin-right:250px;
     font-size: 16px;
 }
 .innerarea h2{
@@ -34,17 +43,16 @@ body{
 .toparea ul li{
     float:left;
     list-style:none;
-    padding-left:4%;
+    padding-left:20px;
     font-family:Arial, Helvetica, sans-serif;
     color:#2d3d2b;
-    z-index:1000;
     
 }
 .toparea ul{
-    margin-top:3%;
+    margin-top:10px;
 }
 .toparea img{
-    margin-left:30%;
+    margin-left:100px;
 }
 .plants{
     height:600px;
@@ -67,7 +75,7 @@ body{
 
 }
 .plants img{
-    border-radius:5%;
+    border-radius:15px;
 }
 .textarea{
     height:50px;
@@ -79,13 +87,14 @@ body{
 }
 .searcharea form{
     width:100%;
-    margin-top:7%;
+    margin-top:75px;
+
 }
 .newarea{
     height:500px;
 }
 .newarea img{
-    border-radius:5%;
+    border-radius:15px;
 }
 .newarea p{
     padding-top:50px;
@@ -105,7 +114,7 @@ body{
     height:500px;
 }
 .stand img{
-    border-radius:5%;
+    border-radius:15px;
 }
 .stand h4{
     padding-top:50px;
@@ -131,20 +140,20 @@ body{
 .footerarea{
     background-color:#014B40;
     height:550px;
-    padding-top:7%;
+    padding-top:100px;
 }
 .footerarea p{
     text-align: left;
     color: white;
 }
 .footerarea img{
-    margin-bottom:5%;
+    margin-bottom:20px;
 }
 .footerarea h3{
     color:whitesmoke;
 }
 .footerarea form{
-    margin-bottom: 15%;
+    margin-bottom:50px;
 }
 .footerarea h5{
     color: white;
@@ -157,14 +166,18 @@ body{
 }
 .lastarea{
     background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
-    padding-top:2%;
-    padding-bottom:2%;
+    padding-top:20px;
+    padding-bottom:20px;
     border-radius: 10px;
 }
 .lastarea span{
-    padding:5%;
-    color:black;
+    padding:5px;
+    font-size: larger;
 }
 .lastarea a{
-    color:black;
+    color:white;
+}
+.lastarea h6{
+    color: white;
+    font-weight: lighter;
 }
